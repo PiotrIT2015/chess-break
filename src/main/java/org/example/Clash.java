@@ -27,7 +27,7 @@ public class Clash {
         players.add(new Player("Hikaru Nakamura"));
         players.add(new Player("Magnus Carlsen"));
         players.add(new Player("WWP"));
-        
+
 
         // symulacja — każdy zawodnik gra i dostaje punkty
         for (Player p : players) {
