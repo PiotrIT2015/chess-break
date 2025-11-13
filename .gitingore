@@ -1,0 +1,60 @@
+# === Maven ===
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# === VS Code ===
+.vscode/
+
+# === Eclipse ===
+.project
+.classpath
+.settings/
+
+# === Systemowe / OS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+
+# === Logi i cache ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.cache/
+logs/
+surefire-reports/
+test-output/
+
+# === Gradle / build (na przyszłość) ===
+.gradle/
+build/
+
+# === Docker ===
+*.pid
+*.seed
+*.env
+docker-compose.override.yml
+docker-compose.local.yml
+.env.local
+.envrc
+.dockerignore
+
+# === Pliki tymczasowe edytorów ===
+*.orig
+*.rej
+*.idea_modules
